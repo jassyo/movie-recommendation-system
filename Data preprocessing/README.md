@@ -57,5 +57,7 @@ The final cleaned and enriched dataset is saved as: updated_movies.csv
 
   4. time: To manage API request rate with sleep delays.
 
-
+## API Used:
+MDb API: Used to fetch movie metadata such as director, year, plot, language, and country.
+API Key Used: 3c45df53 (Replace with your own for production or shared projects)
 
