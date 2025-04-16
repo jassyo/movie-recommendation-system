@@ -105,7 +105,9 @@ a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based 
 
 ## Results & Screenshots
 
-[Movie Recommendation System image](Gallery/Movie Recommendation System .png)
+
+![Movie Recommendations Screenshot](images/recommendations.png)
+
 
 ## Future Improvements
 
