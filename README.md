@@ -76,17 +76,24 @@ Follow these steps to set up the project:
     pip install -r requirements.txt
 
 ## Usage
-1. **Run MRS.py**
+
+1. **Run MRS.py:**
+
    Execute the script to start the Movie Recommendation System.
    ```bash
    python MRS.py
-3. **Install NGROK**
+
+3. **Install NGROK:**
+
    If you don't have NGROK installed, you can download and install it from [here](https://ngrok.com/downloads/windows).
-4. **Run NGROK**
-   After installing NGROK, open the command line or terminal and run the following command:
+
+5. **Run NGROK:**
+
+    After installing NGROK, open the command line or terminal and run the following command:
    ```bash
    ngrok http 5000
-6.**Access the Web App**
+
+4.**Access the Web App**
    After running the command, NGROK will generate a public URL. Use the provided link to access the Movie Recommendation System. 
 ## Recommendation Approach
 
