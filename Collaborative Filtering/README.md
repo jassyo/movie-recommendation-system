@@ -24,7 +24,7 @@ Loading and preprocessing movie rating datasets
 
  - ratings.csv: Contains userId, movieId, and rating
 
-How It Works
+## How It Works
  1. Data Preparation:
 
    - Merge movie titles with ratings.
