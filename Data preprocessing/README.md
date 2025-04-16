@@ -45,4 +45,17 @@ This phase focuses on cleaning and preprocessing movie metadata using Python and
 
       - Dropped remaining rows with null values in plot_keywords (critical for later NLP tasks).
 
- 
+## Output
+The final cleaned and enriched dataset is saved as: updated_movies.csv
+
+##  Tools & Libraries Used
+  1. pandas: For data loading, manipulation, and cleanup.
+
+  2. requests: To interact with the OMDb API.
+
+  3. csv: For custom parsing of non-standard CSV content.
+
+  4. time: To manage API request rate with sleep delays.
+
+
+
