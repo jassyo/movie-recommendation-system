@@ -65,6 +65,16 @@ This project uses multiple datasets to support both content-based and collaborat
 
 ## Installation
 
+Follow these steps to set up the project:
+
+1. **Clone the repository**:
+   ```bash
+   https://github.com/jassyo/movie-recommendation-system.git
+   cd /movie-recommendation-system
+ 2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+
 ## Usage
 
 ## Recommendation Approach
