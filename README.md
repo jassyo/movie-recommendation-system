@@ -106,7 +106,7 @@ a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based 
 ## Results & Screenshots
 
 ## Future Improvements
-[Movie Recommendation System image](Movie Recommendation System.png)
+[Movie Recommendation System image](Movie Recommendation System .png)
 
 ## License
 This project is licensed under the MIT License.
