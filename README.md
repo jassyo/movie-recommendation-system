@@ -81,11 +81,11 @@ Follow these steps to set up the project:
    ```bash
    python MRS.py
 
-3. **Install NGROK:**
+2. **Install NGROK:**
 
    If you don't have NGROK installed, you can download and install it from [here](https://ngrok.com/downloads/windows).
 
-5. **Run NGROK:**
+3. **Run NGROK:**
 
     After installing NGROK, open the command line or terminal and run the following command:
    ```bash
