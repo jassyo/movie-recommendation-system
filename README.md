@@ -22,16 +22,28 @@ A web-based movie recommendation system built with Flask and Python, using conte
 This Movie Recommendation System leverages content-based filtering to suggest movies based on the features of a movie that a user has already shown interest in. Using TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, the system compares movie attributes like genre, cast, director, and plot keywords to recommend similar titles.
 
 ## Features
-*Movie Search by Tag or Title: Users can input a tag (e.g., "At the end of the world, the adventure begins.") or a movie title (e.g., "Pirates of the Caribbean: At World's End") to search for similar movies.
+Movie Search by Tag or Title: Users can input a tag (e.g., "At the end of the world, the adventure begins.") or a movie title (e.g., "Pirates of the Caribbean: At World's End") to search for similar movies.
 
-*Content-Based Filtering: The system matches movies based on shared features such as genre, cast, director, and plot keywords.
+Content-Based Filtering: The system matches movies based on shared features such as genre, cast, director, and plot keywords.
 
-*Recommendation Ranking: Results are filtered and ranked based on IMDb scores, ensuring high-quality recommendations.
+Recommendation Ranking: Results are filtered and ranked based on IMDb scores, ensuring high-quality recommendations.
 
 *User Interface: The system uses Flask to render a simple web interface, displaying movie recommendations along with key details such as genre, cast, director, and plot overview.
 ## Tech Stack
 
 ## Dataset
+## Dataset
+
+This project uses multiple datasets to support both content-based and collaborative filtering techniques:
+
+- [Movie Recommendations Dataset (Kaggle)](https://www.kaggle.com/datasets/sreenathkk/movie-recommendations)  
+  *Used for content-based filtering.*
+
+- [Movie Metadata Dataset (Kaggle)](https://www.kaggle.com/datasets/brtej1/movie-metadata-csv)  
+  *Used for content-based filtering.*
+
+- [MovieLens Dataset (GroupLens)](https://grouplens.org/datasets/movielens/)  
+  *Used for collaborative filtering.*
 
 ## Installation
 
