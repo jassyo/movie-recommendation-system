@@ -10,14 +10,14 @@ This phase implements a content-based filtering recommendation engine using TF-I
 
 ## How It Works
 
-1. **User Input Options: **
+1. **User Input Options** : 
 Users can choose to:
 
     - Enter a movie title
 
     - Enter a tagline keyword (e.g., "space", "warrior") to find a related movie
 
-2. **Recommendation Methods: **
+2. **Recommendation Methods**: 
 Once a movie is identified, users can choose from five recommendation strategies:
 
    1. Based on Genres
@@ -30,7 +30,7 @@ Once a movie is identified, users can choose from five recommendation strategies
 
    5. Display Top 5 Highest Rated Movies (based on IMDb scores)
 
-3. **TF-IDF & Cosine Similarity: **
+3. **TF-IDF & Cosine Similarity**: 
 
    - Text data from the chosen feature is vectorized using TF-IDF.
 
@@ -38,11 +38,11 @@ Once a movie is identified, users can choose from five recommendation strategies
 
    - The top 15 most similar movies are identified and filtered using an IMDb score threshold (≥ 7.0).
 
-4. **Display & Filtering: **
+4. **Display & Filtering**: 
    - Final recommendations are filtered and sorted by IMDb rating.
  
    - A table of top 10 relevant movies is displayed to the user.
 
-5. **Evaluation: **
+5. **Evaluation**: 
 A small test sample is used to evaluate the system's performance using: Precision ,Recall ,and F1 Score
 
