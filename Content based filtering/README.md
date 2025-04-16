@@ -13,22 +13,22 @@ This phase implements a content-based filtering recommendation engine using TF-I
 1. User Input Options
 Users can choose to:
 
-- Enter a movie title
+  - Enter a movie title
 
-- Enter a tagline keyword (e.g., "space", "warrior") to find a related movie
+  - Enter a tagline keyword (e.g., "space", "warrior") to find a related movie
 
 2. Recommendation Methods
 Once a movie is identified, users can choose from five recommendation strategies:
 
- 1. Based on Genres
+   1. Based on Genres
 
- 2. Based on Actor Name
+   2. Based on Actor Name
 
- 3. Based on Director Name
+   3. Based on Director Name
 
- 4. Based on Plot Keywords
+   4. Based on Plot Keywords
 
- 5. Display Top 5 Highest Rated Movies (based on IMDb scores)
+   5. Display Top 5 Highest Rated Movies (based on IMDb scores)
 
 3. TF-IDF & Cosine Similarity
 
