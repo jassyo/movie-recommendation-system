@@ -60,7 +60,7 @@ This project uses multiple datasets to support both content-based and collaborat
   - **Movies dataset:** Contains movie titles, IDs, and genres.  
   - **Ratings dataset:** Contains movie IDs, ratings, and user IDs.
 
-
+ 
 ## Installation
 
 Follow these steps to set up the project:
