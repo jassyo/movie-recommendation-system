@@ -98,10 +98,10 @@ Follow these steps to set up the project:
 ## Recommendation Approach
 1.**Content-Based Filtering (TF-IDF):**
       
-      This section uses TF-IDF Vectorization and Cosine Similarity to recommend movies based on a movie title or tag entered by the user.
+  This section uses TF-IDF Vectorization and Cosine Similarity to recommend movies based on a movie title or tag entered by the user.
 2.**Collaborative Filtering (User-Item Matrix):**
      
-     a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based on user ratings. We use a sparse matrix to represent the user-item interactions, and then find similar users to recommend movies.
+  a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based on user ratings. We use a sparse matrix to represent the user-item interactions, and then find similar users to recommend movies.
 
 ## Project Structure
 
