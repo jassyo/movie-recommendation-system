@@ -96,13 +96,11 @@ Follow these steps to set up the project:
 4.**Access the Web App**
    After running the command, NGROK will generate a public URL. Use the provided link to access the Movie Recommendation System. 
 ## Recommendation Approach
-1.**Content-Based Filtering (TF-IDF)**
+1.**Content-Based Filtering (TF-IDF):**
+      This section uses TF-IDF Vectorization and Cosine Similarity to recommend movies based on a movie title or tag entered by the user.
 
-This section uses TF-IDF Vectorization and Cosine Similarity to recommend movies based on a movie title or tag entered by the user.
-
-2.**Collaborative Filtering (User-Item Matrix)**
-
-a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based on user ratings. We use a sparse matrix to represent the user-item interactions, and then find similar users to recommend movies.
+2.**Collaborative Filtering (User-Item Matrix):**
+     a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based on user ratings. We use a sparse matrix to represent the user-item interactions, and then find similar users to recommend movies.
 
 ## Project Structure
 
