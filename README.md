@@ -16,3 +16,27 @@ This Movie Recommendation System leverages content-based filtering to suggest mo
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
 - [License](#license)
+
+## About the Project
+
+## Features
+
+## Tech Stack
+
+## Dataset
+
+## Installation
+
+## Usage
+
+## Recommendation Approach
+
+## Project Structure
+
+## Results & Screenshots
+
+## Future Improvements
+
+## Contributing
+
+## License
