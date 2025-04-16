@@ -53,5 +53,26 @@ Loading and preprocessing movie rating datasets
 
    - Display top recommended movie titles.
 
+## Tools & Libraries Used
+1. Python 
+
+2. pandas
+
+3. numpy
+
+4. scikit-learn
+
+5. scipy
+
 ##  Example Usage
 ![example](https://github.com/user-attachments/assets/808eae7c-84cf-4360-8d32-742b73beaac3)
+
+
+## Future Improvements
+ - Support for item-based collaborative filtering
+
+ - Improved handling of cold-start users
+
+ - Incorporating popularity bias or hybrid filtering
+
+ - Switching to more scalable recommendation libraries like Surprise or LightFM
