@@ -52,3 +52,6 @@ Loading and preprocessing movie rating datasets
    - Evaluate performance using Precision@5 for multiple k values (number of neighbors).
 
    - Display top recommended movie titles.
+
+##  Example Usage
+![example](https://github.com/user-attachments/assets/808eae7c-84cf-4360-8d32-742b73beaac3)
