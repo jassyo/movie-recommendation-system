@@ -29,13 +29,13 @@ This phase focuses on cleaning and preprocessing movie metadata using Python and
       - Converted genre strings to lowercase and split them into lists.
 
       - Converted plot keywords into lowercase and replaced separators.
-3.Handling Missing Values
+  3.Handling Missing Values
       - Checked for missing values across all relevant fields.
 
       - Fetched missing values using the OMDb API for: director_name ,title_year ,plot_keywords ,language ,country
       
       - Added a delay (sleep(1)) between API requests to respect rate limits.
-4.Filling Remaining Nulls
+  4.Filling Remaining Nulls
       - Filled numeric columns (num_critic_for_reviews, duration, etc.) using column means.
 
       - Filled categorical columns using the mode (most frequent value).
