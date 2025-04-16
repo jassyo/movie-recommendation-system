@@ -25,15 +25,14 @@ This phase focuses on cleaning and preprocessing movie metadata using Python and
       - Identified and dropped irrelevant columns like social media likes, budget, gross, etc.
  
 2. Text Cleanup
-      - Cleaned up non-standard characters in movie titles (e.g., weird trailing symbols like Â).
+   - Cleaned up non-standard characters in movie titles (e.g., weird trailing symbols like Â).
 
       - Converted genre strings to lowercase and split them into lists.
 
       - Converted plot keywords into lowercase and replaced separators.
-
-3.Handling Missing Values
+3. Handling Missing Values
   
-  - Checked for missing values across all relevant fields.
+    - Checked for missing values across all relevant fields.
 
     - Fetched missing values using the OMDb API for: director_name ,title_year ,plot_keywords ,language ,country
       
