@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input[type="text"], select, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e9e9e9;
+        }
+
+        .error {
+            color: red;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .success-message {
+            color: green;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendation System</h1>
+    </header>
+
+    <div class="container">
+        <form method="POST">
+            <label for="input_value">Enter a Movie Title or Tag:</label>
+            <input type="text" name="input_value" required>
+
+            <label for="input_type">Choose Input Type:</label>
+            <select name="input_type">
+                <option value="title">Movie Title</option>
+                <option value="tag">Movie Tag</option>
+            </select>
+
+            <label for="feature">Choose Recommendation Type:</label>
+            <select name="feature">
+                <option value="genres">Genre</option>
+                <option value="actor_1_name">Actor Name</option>
+                <option value="director_name">Director Name</option>
+                <option value="plot_keywords">Description (Content-Based)</option>
+            </select>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        {% if recommendations %}
+            <h2>Recommended Movies:</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genres</th>
+                            <th>Homepage</th>
+                            <th>Overview</th>
+                            <th>Tagline</th>
+                            <th>Cast</th>
+                            <th>Director</th>
+                            <th>Duration</th>
+                            <th>Actor</th>
+                            <th>Voted Users</th>
+                            <th>Keywords</th>
+                            <th>IMDb Link</th>
+                            <th>Language</th>
+                            <th>Country</th>
+                            <th>Year</th>
+                            <th>IMDb Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for movie in recommendations %}
+                            <tr>
+                                <td>{{ movie['movie_title'] }}</td>
+                                <td>{{ movie['genres'] }}</td>
+                                <td>{{ movie['homepage'] or '' }}</td>
+                                <td>{{ movie['overview'] or '' }}</td>
+                                <td>{{ movie['tagline'] or '' }}</td>
+                                <td>{{ movie['cast'] or '' }}</td>
+                                <td>{{ movie['director_name'] or '' }}</td>
+                                <td>{{ movie['duration'] or '' }}</td>
+                                <td>{{ movie['actor_1_name'] or '' }}</td>
+                                <td>{{ movie['num_voted_users'] or '' }}</td>
+                                <td>{{ movie['plot_keywords'] or '' }}</td>
+                                <td><a href="{{ movie['movie_imdb_link'] }}" target="_blank">IMDb</a></td>
+                                <td>{{ movie['language'] or '' }}</td>
+                                <td>{{ movie['country'] or '' }}</td>
+                                <td>{{ movie['title_year'] or '' }}</td>
+                                <td>{{ movie['imdb_score'] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
