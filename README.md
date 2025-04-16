@@ -12,7 +12,6 @@ A web-based movie recommendation system built with Flask and Python, using conte
 - [Installation](#installation)
 - [Usage](#usage)
 - [Recommendation Approach](#recommendation-approach)
-- [Project Structure](#project-structure)
 - [Results & Screenshots](#results--screenshots)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
@@ -103,13 +102,11 @@ This section uses TF-IDF Vectorization and Cosine Similarity to recommend movies
 2.**Collaborative Filtering (User-Item Matrix):**
 a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based on user ratings. We use a sparse matrix to represent the user-item interactions, and then find similar users to recommend movies.
 
-## Project Structure
 
 ## Results & Screenshots
 
 ## Future Improvements
-
-## Contributing
+[Movie Recommendation System image](Movie Recommendation System.png)
 
 ## License
 This project is licensed under the MIT License.
