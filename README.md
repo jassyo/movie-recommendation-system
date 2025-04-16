@@ -14,7 +14,6 @@ A web-based movie recommendation system built with Flask and Python, using conte
 - [Recommendation Approach](#recommendation-approach)
 - [Results & Screenshots](#results--screenshots)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## About the Project
