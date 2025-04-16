@@ -1,6 +1,7 @@
 # Movie Recommendation System
 
-This Movie Recommendation System leverages content-based filtering to suggest movies based on the features of a movie that a user has already shown interest in. Using TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, the system compares movie attributes like genre, cast, director, and plot keywords to recommend similar titles.
+
+A web-based movie recommendation system built with Flask and Python, using content-based filtering to recommend movies based on user input.
 
 ## Table of Contents
 
@@ -18,6 +19,7 @@ This Movie Recommendation System leverages content-based filtering to suggest mo
 - [License](#license)
 
 ## About the Project
+This Movie Recommendation System leverages content-based filtering to suggest movies based on the features of a movie that a user has already shown interest in. Using TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, the system compares movie attributes like genre, cast, director, and plot keywords to recommend similar titles.
 
 ## Features
 
@@ -40,3 +42,4 @@ This Movie Recommendation System leverages content-based filtering to suggest mo
 ## Contributing
 
 ## License
+This project is licensed under the MIT License.
