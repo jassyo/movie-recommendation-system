@@ -7,9 +7,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__, template_folder='D:\\summer training\\shabab\\project\\templates')
 
-
-df = pd.read_csv("D:\\summer training\\shabab\\project\\datasets after cleaning\\updated_movies dataset.csv")
-df_tags = pd.read_csv("D:\\summer training\\shabab\\project\\movies_tags.csv")
+#replace the file path with your file path
+df = pd.read_csv("D:\\summer training\\shabab\\project\\Content based filtering\\updated_movies dataset.csv")
+df_tags = pd.read_csv("D:\\summer training\\shabab\project\\Content based filtering\\updated_movies_tages.csv")
 
 print(df.columns)  # Ensure 'genres' is present here
 print(df_tags.columns)  # Ensure 'genres' is not expected here
