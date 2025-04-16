@@ -57,3 +57,4 @@ A small test sample is used to evaluate the system's performance using: Precisio
  4. IPython display for output formatting
 
 ## Example Run
+![example](https://github.com/user-attachments/assets/1b4d35df-3eda-41bf-93ba-297a6e529fe7)
