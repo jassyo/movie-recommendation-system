@@ -37,6 +37,12 @@ This Movie Recommendation System leverages content-based filtering to suggest mo
 
 ## Tech Stack
 
+- **Language**: Python
+
+- **Libraries**: Pandas, NumPy, Scikit-Learn, Flask
+
+- **Web Framework** : Flask
+
 ## Dataset
 
 This project uses multiple datasets to support both content-based and collaborative filtering techniques:
