@@ -91,7 +91,7 @@ Follow these steps to set up the project:
    ```bash
    ngrok http 5000
 
- 4.**Access the Web App**
+4. **Access the Web App**
    After running the command, NGROK will generate a public URL. Use the provided link to access the Movie Recommendation System. 
 
 ## Recommendation Approach
