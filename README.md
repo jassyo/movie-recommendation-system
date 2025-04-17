@@ -110,6 +110,14 @@ a K-Nearest Neighbors (KNN) algorithm is used for collaborative filtering based 
 
 
 ## Future Improvements
+ - 	Incorporate Item-Based Collaborative Filtering
+ - 	Address the Cold Start Problem
+ - 	Explore Hybrid Approaches blending both filtering methods
+ - 	Migrate to scalable frameworks like LightFM or Surprise
+ - 	Hybrid Recommendation System: Merging content-based and collaborative outputs could improve robustness.
+ - 	Cold Start Solutions: Consider integrating user registration and preference capturing at first interaction.
+ - 	Performance Scaling: Move to more scalable libraries or GPU-based models for real-time recommendations.
+ - 	User Feedback Loop: Include feedback features to retrain models with evolving user preferences.
 
 
 ## License
