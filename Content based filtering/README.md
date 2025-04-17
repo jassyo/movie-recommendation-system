@@ -15,7 +15,7 @@ Users can choose to:
 
     - Enter a movie title
 
-    - Enter a tagline keyword (e.g., "space", "warrior") to find a related movie
+    - Enter a tagline keyword (e.g., "At the end of the world, the adventure begins.") to find a related movie
 
 2. **Recommendation Methods** : 
 Once a movie is identified, users can choose from five recommendation strategies:
