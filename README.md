@@ -45,11 +45,11 @@ This Movie Recommendation System leverages content-based filtering to suggest mo
 
 This project uses multiple datasets to support both content-based and collaborative filtering techniques:
 
-- [Movie Recommendations Dataset (Kaggle)](https://www.kaggle.com/datasets/sreenathkk/movie-recommendations)  
+- [Movie Recommendations Dataset (Kaggle)](https://www.kaggle.com/datasets/brtej1/movie-metadata-csv)  
   *Used for content-based filtering.*  
   **Includes:** Director name, number of critic reviews, duration, genres, actor names, movie title, number of voted users, plot keywords, IMDb link, number of user reviews, language, country, year of release, IMDb score.
 
-- [Movie Metadata Dataset (Kaggle)](https://www.kaggle.com/datasets/brtej1/movie-metadata-csv)  
+- [Movie Metadata Dataset (Kaggle)](https://www.kaggle.com/datasets/sreenathkk/movie-recommendations)  
   *Used for content-based filtering.*  
   *Used to retrieve movie titles based on taglines and to get the homepage of each movie.*  
   **Includes:** Genres, homepage, keywords, overview, runtime, tagline, title, cast, director.
